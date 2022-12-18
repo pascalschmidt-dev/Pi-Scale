@@ -1,3 +1,5 @@
+## Pi-Scale
+
 In 2017 I got interested in automatically tracking my body weight online. By that time, so-called smart bathroom scales were readily available. However, I didn't see myself buying a pretty expensive smart scale only to know the manufacturer selling my data to some health insurance company. So I implemented my own smart scale named _Pi-Scale_.
 
 ### Hardware
@@ -20,6 +22,8 @@ After the weighing process, the result is send to an [IFTTT Webhook](https://ift
 
 ### Demo
 
-The [demo](demo.mp4) video shows on the lower right the actual RPi display. On the left, you see the terminal output of the OpenScale board, which is normally invisible.
+The [demo](https://github.com/pascalschmidt-dev/Pi-Scale/raw/main/demo.mp4) video shows on the lower right the actual RPi display. On the left, you see the terminal output of the OpenScale board, which is normally invisible.
 
 The demo starts with the initial boot sequence. Then a complete weighing process as described above is shown. Finally the camera moves to the Google Sheets spreadsheet that already shows the new row just added.
+
+<video width="320" height="240" controls><source src="https://github.com/pascalschmidt-dev/Pi-Scale/raw/main/demo.mp4" type="video/mp4"></video>
