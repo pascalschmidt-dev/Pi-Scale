@@ -18,7 +18,7 @@ I wrote the RPi software in Python using [Pygame](https://www.pygame.org/).
 
 When the user wakes up the RPi display with a touch, the load cell is calibrated. To bridge the time necessary to do so, an animation is displayed. Then the user identifies himself either as _Guest_ or _Pascal_. The former makes Pi-Scale work just like an ordinary scale while the latter asks for a PIN before invoking the smart scale feature.
 
-After the weighing process, the result is send to an [IFTTT Webhook](https://ifttt.com/maker_webhooks). The IFTTT Applet triggered by that Webhook adds a new row with the weight and the date to a Google Sheets spreadsheet . Additionally a graph with the last 10 weigh-ins is drawn on the RPi display.
+After the weighing process, the result is send to an [IFTTT Webhook](https://ifttt.com/maker_webhooks). The IFTTT Applet triggered by that Webhook adds a new row with the weight and the date to a Google Sheets spreadsheet. Additionally a graph with the last 10 weighings is drawn on the RPi display.
 
 ### Demo
 
