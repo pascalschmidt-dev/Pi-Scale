@@ -22,8 +22,8 @@ After the weighing process, the result is send to an [IFTTT Webhook](https://ift
 
 ### Demo
 
-The [demo](https://github.com/pascalschmidt-dev/Pi-Scale/raw/main/demo.mp4) video shows on the lower right the actual RPi display. On the left, you see the terminal output of the OpenScale board, which is normally invisible.
+The [demo](demo.mp4?raw=true) video shows on the lower right the actual RPi display. On the left, you see the terminal output of the OpenScale board, which is normally invisible.
 
 The demo starts with the initial boot sequence. Then a complete weighing process as described above is shown. Finally the camera moves to the Google Sheets spreadsheet that already shows the new row just added.
 
-<video width="320" height="240" controls><source src="https://github.com/pascalschmidt-dev/Pi-Scale/raw/main/demo.mp4" type="video/mp4"></video>
+https://user-images.githubusercontent.com/57864310/208303389-eacad056-ce80-416b-9282-fec242a2f6e0.mp4
